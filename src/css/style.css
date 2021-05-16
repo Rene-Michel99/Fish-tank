@@ -1,0 +1,96 @@
+body{
+    background-image: url("../img/bg.jpg");
+    background-size: 100% 800px;
+}
+
+#card{
+    position: absolute;
+    top:8px;
+    width:30%;
+    border-radius:5%;
+    padding:16px;
+    background-color: rgba(255, 255, 255, 0.788);
+}
+
+.icon-fish{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.fish{
+    position: relative;
+    width: 100px;
+    height: 50px;
+}
+.fish:hover{
+    border: 5px solid rgb(0, 255, 0);
+    border-radius: 50%;
+}
+
+#bluetang{
+    background-image: url("../img/doris.png");
+    background-size: 100px 50px;
+    animation-name: move_front;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+#surgeon{
+    background-image: url("../img/surgeonfish.png");
+    background-size: 100px 50px;
+    animation-name: move_front;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+#clown{
+    background-image: url("../img/clown_fish.png");
+    background-size: 100px 50px;
+    animation-name: move_front;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+@keyframes move_front_up {
+    0%{
+        left: 0px;
+        top:0px;
+    }
+    50%{
+        left: 1200px;
+        top: 100px;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        transform: scaleX(-1);
+    }
+}
+
+@keyframes move_front {
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 1200px;
+    }
+    100%{
+        left: 0px;
+        transform: scaleX(-1);
+    }
+}
+
+@keyframes move_front_down {
+    0%{
+        left: 0px;
+        bottom: 0px;
+    }
+    50%{
+        left: 1200px;
+        bottom: 100px;
+    }
+    100%{
+        left: 0px;
+        bottom: 0px;
+        transform: scaleX(-1);
+    }
+}
