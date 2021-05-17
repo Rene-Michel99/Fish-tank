@@ -50,6 +50,14 @@ body{
     animation-duration: 9s;
     animation-iteration-count: infinite;
 }
+#compressa{
+    background-image: url("../img/hypseleotriss_compressa.png");
+    background-size: 100px 50px;
+    animation-name: move_front;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
 @keyframes move_front_up {
     0%{
         left: 0px;

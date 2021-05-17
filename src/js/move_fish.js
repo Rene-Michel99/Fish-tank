@@ -1,5 +1,5 @@
 const max_number = 20;
-const fishes = ["bluetang","surgeon","clown"];
+const fishes = ["bluetang","surgeon","clown","compressa"];
 const directions = ["move_front","move_front_up","move_front_down"];
 const fishes_info = {
     "bluetang":[
@@ -22,6 +22,13 @@ const fishes_info = {
         "É uma espécie de peixe anêmona encontrada principalmente na Grande Barreira de Corais da Austrália, mas também em locais próximos no Pacífico Ocidental. O nome da espécie 'akindynos' é grego, significando 'seguro' ou 'sem perigo' em referência à segurança oferecida entre os tentáculos de sua anêmona hospedeira.",
         "Grande Barreira de Corais da Austrália, mas também em locais próximos no Pacífico Ocidental.",
         "Consiste principalmente em algas (algas marinhas) e zooplâncton. O par dominante na hierarquia social tende a se distanciar da anêmona hospedeira para encontrar comida. A anêmona hospedeira pode se beneficiar com pequenos pedaços de comida que os peixes anêmona deixam cair ao se alimentar."
+    ],
+    "compressa":[
+        "./src/img/Hypseleotriscompressa.jpg",
+        "Imperador Gudgeon",
+        "H. compressa tem um corpo alongado que pode ter até 12 cm (4,7 pol.) De comprimento. Os machos são maiores do que as fêmeas. O peixe não tem linha lateral, mas tem escamas ctenóides. Sua cor varia, mas o peixe geralmente tem uma cabeça bronzeada amarelada a marrom-dourada, embora possa ocasionalmente ser um marrom escuro. Seu abdome geralmente é vermelho-esbranquiçado. A barbatana caudal tem uma cor 'escura' e as barbatanas peitorais e pélvicas não têm cor. As espécies podem mudar rapidamente de cor conforme necessário.",
+        "Principalmente concentrado nas porções norte e leste da Austrália e centro-sul da Nova Guiné. Também foi encontrado no Estreito de Torres, ao redor de Muralag e Ilha do Chifre.",
+        "Onívoro, pegando principalmente pequenos crustáceos e insetos, mas também consome algas e plantas aquáticas."
     ]
 }
 
