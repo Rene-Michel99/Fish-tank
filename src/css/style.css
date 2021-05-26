@@ -1,3 +1,7 @@
+:root{
+    --init:-300px;
+    --end:90%;
+}
 body{
     background-image: url("../img/bg.jpg");
     background-size: 100% 800px;
@@ -60,15 +64,15 @@ body{
 
 @keyframes move_front_up {
     0%{
-        left: 0px;
+        left: var(--init);
         top:0px;
     }
     50%{
-        left: 90%;
+        left: var(--end);
         top: 100px;
     }
     100%{
-        left: 0px;
+        left: var(--init);
         top: 0px;
         transform: scaleX(-1);
     }
@@ -76,28 +80,28 @@ body{
 
 @keyframes move_front {
     0%{
-        left: 0px;
+        left: var(--init);
     }
     50%{
-        left: 90%;
+        left: var(--end);
     }
     100%{
-        left: 0px;
+        left: var(--init);
         transform: scaleX(-1);
     }
 }
 
 @keyframes move_front_down {
     0%{
-        left: 0px;
+        left: var(--init);
         bottom: 0px;
     }
     50%{
-        left: 90%;
+        left: var(--end);
         bottom: 100px;
     }
     100%{
-        left: 0px;
+        left: var(--init);
         bottom: 0px;
         transform: scaleX(-1);
     }
